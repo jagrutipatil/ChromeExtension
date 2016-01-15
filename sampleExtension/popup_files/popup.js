@@ -5,11 +5,11 @@ function changeURL() {
   });
 } 
 
-document.getElementById('changeLink').addEventListener('afterClick', function() {
+document.getElementById('changeLink').addEventListener('click', function() {
     changeURL();
 });
 
 
 document.addEventListener('DOMContentLoaded', function() {  
-
+    console.log("Document is loading");
 });
